@@ -2,7 +2,9 @@ import random
 
 choices = ['R', 'P', 'S']
 
-while True:
+
+game_over = False
+while not game_over:
     user_choice = input("Enter a choice (R, P, S): ")
     possible_choice = ["R", "P", "S"]
     computer_choice = random.choice(possible_choice)
@@ -26,4 +28,4 @@ while True:
             print("Scissors cuts paper! YOU WIN")
         else:
             print("Rock smashes scissors! YOU LOSE")
-play_again = input("Do you want to play again? (y/n): ")
+        break    
