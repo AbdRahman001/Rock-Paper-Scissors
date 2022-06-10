@@ -20,7 +20,7 @@ while True:
         if computer_choice == "R":
             print("Paper covers Rock, YOU WIN")
         else:
-            print("Scissors cuts paper! YOU LOSE")
+            print("Scissors cuts Paper! YOU LOSE")
     elif user_choice == "S":
         if computer_choice == "P":
             print("Scissors cuts paper! YOU WIN")
